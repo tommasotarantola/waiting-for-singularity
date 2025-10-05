@@ -1,10 +1,7 @@
 ---
-title: Meta è bello
-output:
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
+title: Metamodelli
 ---
+# Metamodelli
 
 ## Introduzione
 

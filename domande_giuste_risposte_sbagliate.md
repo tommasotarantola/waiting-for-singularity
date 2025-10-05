@@ -1,13 +1,9 @@
 ---
 title: Domande, risposte e barbieri
-output:
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
-    number_sections: true
 ---
+# Domande, risposte e barbieri
 
-# Introduzione
+## Introduzione
 
 Quello che state per leggere non è neanche lontanamente sensato, non ha alcuna utilità pratica e molto probabilmente vi farà solo perdere tempo.
 Nel migliore dei casi si intende.
@@ -31,7 +27,7 @@ Sapersi destreggiare tra diversi livelli di astrazione e saper distinguere tra m
 
 Ma andiamo con ordine.
 
-# Cosa è una domanda?
+## Cosa è una domanda?
 
 ($l_1$)*"Cosè una domanda?"*\
 Bhe, ottima domanda, una ancora migliore potrebbe essere:\
@@ -45,7 +41,7 @@ Sappiamo tutti che si è compreso qualcosa solo quando la si può vedere, al con
 Per cui.
 
 
-## Generalizzare: tutto è uguale a tutto
+### Generalizzare: tutto è uguale a tutto
 
 > "Da quassù la Terra è bellissima, senza frontiere né confini"
 >
@@ -70,7 +66,7 @@ Bhe, ottima domanda
 In effetti *qual'è la differenza?*\
 Ma soprattutto *ci serve saperlo?*
 
-## Particolareggiare: niente è perfettamente uguale a niente
+### Particolareggiare: niente è perfettamente uguale a niente
 
 > "Perchè diavolo devo dirle quanto sono alto?"
 >
@@ -113,7 +109,7 @@ Tuttavia non credo che potremmo immaginare cosa potrebbe essere una domanda in f
 E' il momento di introdurre un nuovo personaggio.
 
 
-## Ragruppare: alcuni sono più eguali di altri
+### Ragruppare: alcuni sono più eguali di altri
 
 > I modelli sono solo bugie quasi sempre vere
 > 
@@ -132,7 +128,7 @@ Per cui due persone a 1 m faranno vibrare l'aria, due persone in due continenti 
 
 Ok tutto torna, bhe quasi.
 
-## Tira, taglia, ricuci, ripeti
+### Tira, taglia, ricuci, ripeti
 
 > Qua stiamo costruendo le trivelle, mica scaviamo.
 >
@@ -189,7 +185,7 @@ Nella comunicazione umana, in cui siamo interessati più a $D$ e $R$ che ai segn
 
 Scendiamo e spendiamo una parola sulla complessità del caso umano.
 
-## Domanda umana
+### Domanda umana
 
 Fino ad ora abbiamo spesso molto tempo a definire banalità (più su questo in conclusione) e cercato di fare ordine, ora proviamo a fare delle ipotesi e cerchiamo di dare uno spaccatto di cosa succede realmente.
 
@@ -200,13 +196,13 @@ Prendiamo il caso umano:
 In sintesi:
 
 - il sistema A genera la domanda nella sua forma più astratta $D$, non agganciata a paradigmi di rappresentazione. Questo ovviamente non è possibile, tutto è fisico e codificato. $D$ ci serve solo come puntatore, per gestire un oggetto complesso.
-- $f_{codifica\_logica}(DA)$ &#8594; $CLDA$ crea una vettore della domanda secondo un paradigma di rappresentazione, definisce forma e contenuto (è l'unica parte del processo con componenti coscienti). $CLDA$ è un oggetto logico astratto lavorabile secondo le regole del ragionamento. E' l'unica forma "pensabile" della domanda. Anche se in questo step è possibile un'azione cosciente non è affatto necessaria. La forzatura sta nel considerare azioni non coscienti come oggetti logici, ma è necessaria perchè in alternativa bisognerebbe dettagliare come la nostra mente distingua tra stimoli lavorabili in modalità conscia o modalità incoscia.
-- $f_{codifica\_logico-fisica}(CLDA)$ &#8594; $SNDA$: crea un vettore lavorabile da interfaccia fisica di comunicazione. A livello incoscio struttura la domanda in un segnale lavorabile dai muscoli.
-- $f_{generazione}(SNDA)$ &#8594; $SFDA$: crea vettore segnale nello spazio di comunicazione.
-- $f_{trasmissione}(SFDA)$ &#8594; $SFDB$: crea vettore segnale su interfaccia fisica di B: è la trasformazione dovuta al mezzo di comunicazione.
-- $f_{ricezione}(SFDB)$ &#8594; $SNDB$: crea vettore di input su layer di decodifica a livello inconscio.
-- $f_{codifica\_fisico-logica}$ &#8594; $CLDB$: crea vettore di input logico astratto lavorabile.
-- $f_{codifica\_logica}(CLDB)$ &#8594; $DB$: lavora l'oggetto logico e ricostruisce $D$.
+- $f_{codifica\_logica}(DA)$ &##8594; $CLDA$ crea una vettore della domanda secondo un paradigma di rappresentazione, definisce forma e contenuto (è l'unica parte del processo con componenti coscienti). $CLDA$ è un oggetto logico astratto lavorabile secondo le regole del ragionamento. E' l'unica forma "pensabile" della domanda. Anche se in questo step è possibile un'azione cosciente non è affatto necessaria. La forzatura sta nel considerare azioni non coscienti come oggetti logici, ma è necessaria perchè in alternativa bisognerebbe dettagliare come la nostra mente distingua tra stimoli lavorabili in modalità conscia o modalità incoscia.
+- $f_{codifica\_logico-fisica}(CLDA)$ &##8594; $SNDA$: crea un vettore lavorabile da interfaccia fisica di comunicazione. A livello incoscio struttura la domanda in un segnale lavorabile dai muscoli.
+- $f_{generazione}(SNDA)$ &##8594; $SFDA$: crea vettore segnale nello spazio di comunicazione.
+- $f_{trasmissione}(SFDA)$ &##8594; $SFDB$: crea vettore segnale su interfaccia fisica di B: è la trasformazione dovuta al mezzo di comunicazione.
+- $f_{ricezione}(SFDB)$ &##8594; $SNDB$: crea vettore di input su layer di decodifica a livello inconscio.
+- $f_{codifica\_fisico-logica}$ &##8594; $CLDB$: crea vettore di input logico astratto lavorabile.
+- $f_{codifica\_logica}(CLDB)$ &##8594; $DB$: lavora l'oggetto logico e ricostruisce $D$.
 
 Gli step di decodifica che come quelli di codifica possono essere inconsci.\
 Di fatto una buona fetta di comunicazione tra esserei umani è in forma inconscia.\
@@ -222,7 +218,7 @@ Esistono numerosi cicli di feedback  per verificare la corretta codifica della d
 $A$ deve deve riuscire, con la sua codifica, a garantire che $D$ venga correttamente ricevuto da $B$.
 
 
-## Cosa è una risposta?
+### Cosa è una risposta?
 
 **E' un segnale con forma risposta generato da sistema destinatario $B$ e inviato a un sistema sorgente A a seguito di un segnale con forma domanda generato da $A$.**
 
@@ -246,9 +242,9 @@ Quello che fa $A$ è associare la coppia $(D, R)$ ad uno specifico stato di $B$.
 
 
 
-# Cosa è giusto?
+## Cosa è giusto?
 
-## Introduzione
+### Introduzione
 
 Ok, se siete qua e siete sopravvissuti alla tediosa verbosità del capitolo precedente c'è sicuramente qualcosa di sbagliato in voi.
 
@@ -256,7 +252,7 @@ Cosa è giusto?\
 Al solito, andiamo veloci stavolta.
 
 
-## Giusto
+### Giusto
 
 "Cosa significa giusto?"\
 Prima di tutto generalizzare.\
@@ -286,7 +282,7 @@ Spesso si parla di "giusto"" in termini booleani, ma noi non crediamo nei bolean
 ![*Definizione del livello di giustezza per O e G*](img/livello_giustezza.svg)
 
 
-## Sbagliato
+### Sbagliato
 "Cosa significa sbagliato?"\
 Direi il contrario di giusto.\
 La sua definizione dipende dalla codifica scelta per giusto.\
@@ -296,7 +292,7 @@ Da notare che la codifica che decidiamo di dare ai concetti dipende in buona mis
 
 
 
-# Come si fanno le cose?
+## Come si fanno le cose?
 
 > "In un villaggio vi è un solo barbiere, un uomo ben sbarbato, che rade tutti e solo gli uomini del villaggio che non si radono da soli. Chi rade il barbiere?"
 >
@@ -308,7 +304,7 @@ Una volta chiarito cosa sia una **domanda** e cosa sia **giusto** non rimane che
 Le domande umane codificate definiscono, in modo più o meno ambiguo, il tipo di forma che deve avere la risposta.\
 Una domanda che contiene "Come si generano", nel contesto in cui è stata formulata (più su questo in conclusione), richiede di avere come risposta una procedura.
 
-## Cos'è una procedura?
+### Cos'è una procedura?
 
 **Un insieme di attività con dipendenze e oggetti con relazioni**
 
@@ -316,7 +312,7 @@ Evidentemente esiste un modo pressochè infinito di generare procedure.\
 Possiamo fare l'ipotesi che ci interessi la procedura più giusta, questo perchè, in realtà, la domanda "Come si generano domande giuste?" è in realtà "Come si generano in modo giusto domande giuste?".\
 Non resta che chiederci..
 
-## Quale procedura è la più giusta?"
+### Quale procedura è la più giusta?"
 
 Per rispondere a questo possiamo riprendere la definizione di giusto che abbiamodato poco fa.\
 Il livello di giustezza è funzione di $O$ e $V$.\
@@ -337,7 +333,7 @@ Basta definire la procedura, istanziare e risolvere e avremo in output $V$
 Nessun problema, giusto?\
 Bhe, quasi..
 
-## Come genero una [procedura]?
+### Come genero una [procedura]?
 
 Bhe con una procedura.\
 Con la procedura che genera [le procedure].\
@@ -350,7 +346,7 @@ Non so come sia noto al resto del mondo.
 Esce ogni tanto quando si ragiona sulle cose.
 E' il caso simbolo dei paradossi sull'autoreferenzialità.\
 Il problema è abbastanza chiaro, se l'output della mio processo è un processo allora la cosa diventa ricorsiva.
-Esiste un foglio di appunti su questo [*qui*](https://tommasotarantola.github.io/waiting-for-singularity/meta_modelli)
+Esiste un foglio di appunti su questo [*qui*](https://tommasotarantola.github.io/waiting-for-singularity/metamodelli)
 
 Questo ci dai problemi perchè potremmmo continuare a meta-progettare all'inifinito.
 Non ho un'idea chiara di come si potrebbe risolvere in modo ottimale, una soluzione subottima è "fai la prima cosa che ti viene in mente" e così faremo.
@@ -359,7 +355,7 @@ Non saliremo a livelli-meta più alti, ci limeteremo a progettazione $p_1$ ed es
 
 
 
-# Come si generano domande giuste?
+## Come si generano domande giuste?
 
 Finalemente siamo arrivati alla prima delle due domande oggetto della nostra analisi.\
 Sappiamo che l'output dovrà essere una procedura e che questa procedura dovrà avere in output una domanda.
@@ -425,7 +421,7 @@ E' molto più difficile capire come definire B in generale rispetto che in un am
 Dato che la nostra richiesta iniziale è: "come generare domande giuste" e non "genera una domanda giusta" non ci serve un istanziazione completa per rispondere e quindi non lo faremo.\
 Proveremo, invece, a fare un istanziazione parziale e qualche considerazione di carattere generale.
 
-## Codifica, decodifica e iniettività
+### Codifica, decodifica e iniettività
 
 Per definire $f_g$ dobbiamo innazitutto definire $G$.\
 $G$ potrebbe essere lo stesso sistema $A$ oppure $B$ oppure un sistema completamente diverso.\
@@ -466,14 +462,14 @@ L'insieme delle domande e risposte deve farci convergere sullo stato di $B$.
 In generale il modo per conevergere il più velocemente possibile è estrarre più **informazione** possibile con ogni domanda.\
 Ma qua non stiamo parlando più di codifica e decodfica, ci torneremo dopo.
 
-## Conclusione
+### Conclusione
 
 Chiudiamo questo capitolo con uno schema espanso del processo domanda-risposta tra sistema $A$ e $B$ complessi.
 
 ![*Processo di domanda e risposta*](img/domanda_risposta.svg)
 
 
-# Come si generano risposte sbagliate?
+## Come si generano risposte sbagliate?
 
 Giusto per completezza spendiamo due parole sulle risposte sbagliate.\
 Non che ci interessino.\
@@ -511,7 +507,7 @@ E comunque non esiste un modo di non inviare informazione ad $A$.\
 
 
 
-## Informazione
+### Informazione
 
 E' giunto il momento di parlare di $D$, non di $DC$, di $D$.
 
@@ -545,7 +541,7 @@ O meglio, il nostro numero di domande binarie approssimerà il numero di bits di
 
 Fino a qui tutto bene.
 
-## Simulazione 
+### Simulazione 
 
 *Cosa deve fare $B$ per ridurre al minimo l'informazione passata ad $A$?*
 
@@ -571,7 +567,7 @@ Ottima domanda, ma temo che il nostro tempo sia davvero giunto al termine.
 
 ![*Processo di generazione di risposte sbagliate giusto*](img/risposta_sbagliata_giusta.svg)
 
-# Conclusione
+## Conclusione
 
 > "Svegliatevi ragazzi, la vita è veloce e voi no. La vita è dura per le teste vuote."
 >
