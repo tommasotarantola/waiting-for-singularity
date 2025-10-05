@@ -181,7 +181,7 @@ La codifica è necessaria perchè viviamo in un mondo è materiale in cui le cos
 La decofica è necessaria perchè a noi essere coscienti piace pensare di non seguire le stesse regole del resto del mondo.\
 
 
-![*Processo di codifica di una domanda*](codifica_domanda.svg)
+![*Processo di codifica di una domanda*](img/codifica_domanda.svg)
 
 Nella comunicazione umana, in cui siamo interessati più a $D$ e $R$ che ai segnali materiali, sia $A$ che $B$ stanno facendo grasse ipotesi sulle funzioni codifica e decodifca della controparte e, in fondo, non esiste un standard ISO per le domande-risposte.
 
@@ -195,7 +195,7 @@ Fino ad ora abbiamo spesso molto tempo a definire banalità (più su questo in c
 
 Prendiamo il caso umano:
 
-![*Domanda: caso umano*](domanda_umana.svg)
+![*Domanda: caso umano*](img/domanda_umana.svg)
 
 In sintesi:
 
@@ -283,7 +283,7 @@ Nella sua forma più banale, in cui $O$ è un vettore di boleani, si può defini
 Da notare che stiamo definendo il concetto di giusto come un valore numerico intero.\
 Spesso si parla di "giusto"" in termini booleani, ma noi non crediamo nei boleani, gli attributi possono essetere boleani, gli oggetti, come la realtà, sono pixelati.
 
-![*Definizione del livello di giustezza per O e G*](livello_giustezza.svg)
+![*Definizione del livello di giustezza per O e G*](img/livello_giustezza.svg)
 
 
 ## Sbagliato
@@ -350,7 +350,7 @@ Non so come sia noto al resto del mondo.
 Esce ogni tanto quando si ragiona sulle cose.
 E' il caso simbolo dei paradossi sull'autoreferenzialità.\
 Il problema è abbastanza chiaro, se l'output della mio processo è un processo allora la cosa diventa ricorsiva.
-Esiste un foglio di appunti su questo [*qui*](https://rpubs.com/tommasotarantola/metaprogettazione)
+Esiste un foglio di appunti su questo [*qui*](https://tommasotarantola.github.io/waiting-for-singularity/meta_modelli)
 
 Questo ci dai problemi perchè potremmmo continuare a meta-progettare all'inifinito.
 Non ho un'idea chiara di come si potrebbe risolvere in modo ottimale, una soluzione subottima è "fai la prima cosa che ti viene in mente" e così faremo.
@@ -379,7 +379,7 @@ Per prima cosa: lista della spesa, *quali elementi potrebbero impattare su quest
 Dato che giusto per noi è un valore numerico il nostro output dovrà essere qualcosa del tipo $max(f_g(DC,V)$ o $f_g(DC,V) > M$.\
 Quindi ci serve prima un processo per generare domande codificate e associarli un valore di giustezza.
 
-![*Processo di generazione domanda con livello giustezza*](domanda_livello_giustezza.svg)
+![*Processo di generazione domanda con livello giustezza*](img/domanda_livello_giustezza.svg)
 
 Ora, a seconda che si voglia un $max()$ o $> M$, la strategia da adottare si modica sensibilmente.\
 Di nuovo è un problema di istanza, il problema che stiamo risolvendo ha troppi GDL.\
@@ -470,7 +470,7 @@ Ma qua non stiamo parlando più di codifica e decodfica, ci torneremo dopo.
 
 Chiudiamo questo capitolo con uno schema espanso del processo domanda-risposta tra sistema $A$ e $B$ complessi.
 
-![*Processo di domanda e risposta*](domanda_risposta.svg)
+![*Processo di domanda e risposta*](img/domanda_risposta.svg)
 
 
 # Come si generano risposte sbagliate?
@@ -569,7 +569,7 @@ Questa è una risposta davvero sbagliata perchè:
 
 Ottima domanda, ma temo che il nostro tempo sia davvero giunto al termine.
 
-![*Processo di generazione di risposte sbagliate giusto*](risposta_sbagliata_giusta.svg)
+![*Processo di generazione di risposte sbagliate giusto*](img/risposta_sbagliata_giusta.svg)
 
 # Conclusione
 

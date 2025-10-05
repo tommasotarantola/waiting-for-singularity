@@ -1,0 +1,8 @@
+title: Waiting for Singularity
+description: Le mie note e articoli
+
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
