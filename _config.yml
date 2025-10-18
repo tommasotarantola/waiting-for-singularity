@@ -5,3 +5,6 @@ theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+# https://tommasotarantola.github.io/waiting-for-singularity/domande_giuste_risposte_sbagliate
+# https://tommasotarantola.github.io/waiting-for-singularity/metamodelli
